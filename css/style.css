@@ -1,3 +1,2 @@
-.p1{
-	font-size: 14px;
-}
+/*import fonts from font.css file */
+@import url(./fonts.css);
