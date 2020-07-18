@@ -52,7 +52,7 @@
 }
 
 .site-main .site-banner .site-title h3::after {
-  content: " ";
+  content: ' ';
   height: 2px;
   width: 18vw;
   background: black;
@@ -209,6 +209,11 @@
 }
 .site-main .project-area .grid .our-project > .title h4 {
   font: normal 700 25px/12px var(--roboto);
+}
+
+/*creating hover effect on the images*/
+.site-main .project-area .grid .our-project .img a:hover img {
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
 /* endproject area*/
